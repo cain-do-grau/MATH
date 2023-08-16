@@ -1,0 +1,51 @@
+body{
+    background: rgb(255, 120, 120);
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jogadores{
+    margin: 5%;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+button{
+    margin-bottom: 10%;
+    padding: 1%;
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    font-size: 100%;
+
+}
+
+h4{
+    color: rgb(129, 129, 129);
+}
+
+input{
+    background-color: aliceblue;
+    color: black;
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: lightblue;
+    width: 100%;
+    margin-left: -8px;
+    font-size: 70%;
+}
+#r{
+    font-size: 0%;
+}

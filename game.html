@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cal()">
+    <header>
+        <h1>Faça&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calculo</h1>
+        <div style="text-align: left;">
+        <label id="nomeJogador1"></label><span id="pontosJogador1"></span>
+        <br><br>
+        <label id="nomeJogador2"></label><span id="pontosJogador2"></span>
+    </div>
+    </header>
+    <main>
+        <h3 id="nomeJogador1"></h3>
+        <h3 id="nomeJogador2"></h3>
+        <div id="output"></div>
+        <br><br>
+        <input type="number" id="rj1" placeholder="jogador 1">
+        <br><br>
+        <input type="number" id="rj2" placeholder="jogador 2">
+
+        <br><br>
+        <button type="submit" onclick="check()">enviar</button>
+        <br><br>
+        <button type="submit" onclick="pr()">proximo</button>
+    </main>
+    <footer>
+        <h3>Desenvolvido por Caio</h3>
+    </footer>
+    <script src="game.js"></script>
+    <div id="r"></div>
+</body>
+</html>
