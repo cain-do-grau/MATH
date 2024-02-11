@@ -47,8 +47,8 @@ function cal() {
 
 function pr() {
 
-   n1 = 0 + Math.floor(Math.random() * 500) + 1;
-   n2 = 0 + Math.floor(Math.random() * 500) + 1;
+   n1 = 0 + Math.floor(Math.random() * 100) + 1;
+   n2 = 0 + Math.floor(Math.random() * 100) + 1;
    si2 = 0 + Math.floor(Math.random() * 3) + 1;
    si3 = si[si2]
 
