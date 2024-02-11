@@ -17,8 +17,8 @@ var si = [" + ", " - ", " x ", " / "];
 var mat;
 
 function cal() {
-   var n1 = Math.floor(Math.random() * 500) + 1;
-   var n2 = Math.floor(Math.random() * 500) + 1;
+   var n1 = Math.floor(Math.random() * 100) + 1;
+   var n2 = Math.floor(Math.random() * 100) + 1;
    var si2 = Math.floor(Math.random() * 3) + 1;
    var si3 = si[si2];
 
