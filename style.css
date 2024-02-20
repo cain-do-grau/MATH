@@ -1,6 +1,26 @@
-body{
+.body{
     background: rgb(255, 120, 120);
     background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#bodydif{
+    background: linear-gradient(to right,
+    rgb(255, 120, 120),
+    rgb(255, 120, 120),
+    #75b3ff,
+    #75b3ff,
+    #eca92c,
+    #eca92c,
+    #cc34f2,
+    #cc34f2,
+    #ff0000,
+    #ff0000,
+    rgb(255, 120, 120),
+    rgb(255, 120, 120));
     height: 100%;
     text-align: center;
     font-size: 150%;

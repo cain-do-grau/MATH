@@ -1,14 +1,18 @@
 var nomeJogador1 = localStorage.getItem("nomeJogador1");
 var nomeJogador2 = localStorage.getItem("nomeJogador2");
+var diff = localStorage.getItem("diff");
+var numb = localStorage.getItem("numb");
 
 var pontosJogador1 = 0;
 var pontosJogador2 = 0;
 
 document.getElementById("nomeJogador1").innerHTML = nomeJogador1 + ":";
 document.getElementById("nomeJogador2").innerHTML = nomeJogador2 + ":";
+document.getElementById("difficulty").innerHTML = "difficulty :";
 
 document.getElementById("pontosJogador1").innerHTML = pontosJogador1;
 document.getElementById("pontosJogador2").innerHTML = pontosJogador2;
+document.getElementById("difficulti").innerHTML = diff;
 
 var rj1 = document.getElementById("rj1").value;
 var rj2 = document.getElementById("rj2").value;
@@ -17,8 +21,8 @@ var si = [" + ", " - ", " x ", " / "];
 var mat;
 
 function cal() {
-   var n1 = Math.floor(Math.random() * 100) + 1;
-   var n2 = Math.floor(Math.random() * 100) + 1;
+   var n1 = Math.floor(Math.random() * numb) + 1;
+   var n2 = Math.floor(Math.random() * numb) + 1;
    var si2 = Math.floor(Math.random() * 3) + 1;
    var si3 = si[si2];
 
@@ -47,8 +51,8 @@ function cal() {
 
 function pr() {
 
-   n1 = 0 + Math.floor(Math.random() * 100) + 1;
-   n2 = 0 + Math.floor(Math.random() * 100) + 1;
+   n1 = 0 + Math.floor(Math.random() * numb) + 1;
+   n2 = 0 + Math.floor(Math.random() * numb) + 1;
    si2 = 0 + Math.floor(Math.random() * 3) + 1;
    si3 = si[si2]
 

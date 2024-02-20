@@ -6,7 +6,7 @@
     <title>Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="cal()">
+<body onload="cal()" class="body">
     <header>
         <h1>Faça&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calculo</h1>
@@ -14,11 +14,13 @@
         <label id="nomeJogador1"></label><span id="pontosJogador1"></span>
         <br><br>
         <label id="nomeJogador2"></label><span id="pontosJogador2"></span>
+        <br><br>
+        <label id="difficulty"></label><span id="difficulti"></span>
+        
     </div>
     </header>
     <main>
         <h3 id="nomeJogador1"></h3>
-        <h3 id="nomeJogador2"></h3>
         <div id="output"></div>
         <br><br>
         <input type="number" id="rj1" placeholder="jogador 1">
@@ -26,9 +28,7 @@
         <input type="number" id="rj2" placeholder="jogador 2">
 
         <br><br>
-        <button type="submit" onclick="check()">enviar</button>
-        <br><br>
-        <button type="submit" onclick="pr()">proximo</button>
+        <button type="submit" onclick="check(),pr()">enviar</button>
     </main>
     <footer>
         <h3>Desenvolvido por Caio</h3>

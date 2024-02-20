@@ -5,5 +5,5 @@ function addUser(){
     localStorage.setItem("nomeJogador1", nomeJogador1);
     localStorage.setItem("nomeJogador2", nomeJogador2);
 
-    window.location="game.html";
+    window.location="difficulty.html";
 }
