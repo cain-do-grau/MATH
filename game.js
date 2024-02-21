@@ -42,7 +42,7 @@ function cal() {
    }
 
    if (si2 == 3) {
-      mat = Math.floor(n1 / n2);
+      mat = n1 / n2;
       console.log(mat);
    }
    document.getElementById("output").innerHTML = n1 + si3 + n2 + "= ?";
@@ -72,7 +72,7 @@ function pr() {
    }
 
    if (si2 == 3) {
-      mat = Math.floor(n1 / n2);
+      mat = n1 / n2;
       console.log(mat);
    }
 
